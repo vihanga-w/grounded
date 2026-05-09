@@ -1,0 +1,30 @@
+{
+  "name": "grounded",
+  "version": "1.0.0",
+  "description": "Grounded is an AI powered system which identifies misinformation, clarifies uncertainties and scores short-form content on accuracy",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "npm run build",
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vihanga-w/grounded.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vihanga-w/grounded/issues"
+  },
+  "homepage": "https://github.com/vihanga-w/grounded#readme",
+  "dependencies": {
+    "openai": "^6.37.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.2",
+    "typescript": "^6.0.3"
+  }
+}
