@@ -4,7 +4,7 @@
   "description": "Grounded is an AI powered system which identifies misinformation, clarifies uncertainties and scores short-form content on accuracy",
   "main": "build/index.js",
   "scripts": {
-    "test": "npm run build",
+    "test": "echo \"No tests configured yet\"",
     "build": "tsc",
     "start": "node build/index.js"
   },
@@ -15,7 +15,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/vihanga-w/grounded/issues"
   },
